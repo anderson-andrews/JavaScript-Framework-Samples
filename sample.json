@@ -1,0 +1,23 @@
+{
+  "view": {
+    "tag": "div",
+    "class": "Test1",
+    "text": "__data__.test",
+    "style": "background:yellow;"
+  },
+  "observers":[
+     {"name":"DivTest",
+      "on":{"click":["action.TestAction","__announce__"],
+            "dbclick":"action.TestAction2"},
+      "watch":{"hover":"action.TestAction"}
+     },
+     {"name":"DivTest2",
+      "on":{"dbclick":"__announce__"}
+     }
+  ],
+  "modelSettings":{"type":"localStorage",
+                   "action":"json_test1_data"},
+  "stub": "<div id='<%=id%>' class='Stub' data-jsonName='<%=name%>' data-action='json_test1'>This is a stub</div>",
+  "children": ["standard_ul"],
+  "siblings": ["standard_div"]
+}
