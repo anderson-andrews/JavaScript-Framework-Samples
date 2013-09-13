@@ -16,7 +16,7 @@ If the data is an object it will build only one element.
 The framework also has the ability to store data from JSON instructions in
 localStorage or sessionStorage depending on the JSON instructions.
 
-In addition to building elements and storing data the JSON is used link elements using multiple observer groups.
+In addition to building elements and storing data the JSON is used to link elements using multiple observer groups.
 When a particular action is performed on an active DOM element it triggers a list of actions.
 The actions can be action calls(specialized functions) or announce(__announce__).
 Announce tells all of the observing elements within an observer that an action has been performed.
