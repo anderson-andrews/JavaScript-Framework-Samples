@@ -3,7 +3,7 @@ JavaScript-Framework-Samples
 
 Framework
 ---------
-The sample files I've sent are part of a larger project I've been working on.
+These samples are part of a larger project I've been working on.
 The frontend JavaScript has the ability to request and process pre-processed JSON from a server.
 Server pre-processing includes adding a data array or object to the JSON string and
 processing the string with ERB(Ruby's default templating engine).
